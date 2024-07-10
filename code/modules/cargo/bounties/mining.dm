@@ -20,7 +20,7 @@
 
 /datum/bounty/item/mining/bone_axe
 	name = "Bone Axe"
-	description = "Station 12 has had their fire axes stolen by marauding clowns. Ship them a bone axe as a replacement."
+	description = "Station 12 has had their fire axes stolen. Ship them a bone axe as a replacement."
 	reward = 7500
 	wanted_types = list(/obj/item/fireaxe/boneaxe)
 

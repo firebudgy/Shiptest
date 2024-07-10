@@ -1179,10 +1179,7 @@
 /area/ship/hallway/fore)
 "hT" = (
 /obj/structure/table/wood,
-/obj/item/clothing/mask/gas/clown_hat,
 /obj/item/bikehorn,
-/obj/item/clothing/shoes/clown_shoes,
-/obj/item/megaphone/clown,
 /obj/item/reagent_containers/food/drinks/soda_cans/canned_laughter,
 /obj/item/radio/intercom/directional/south,
 /turf/open/floor/carpet/nanoweave/purple,
@@ -4483,7 +4480,7 @@
 /area/ship/hallway/aft)
 "Ee" = (
 /obj/structure/bed,
-/obj/item/bedsheet/clown,
+/obj/item/bedsheet/yellow,
 /turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew/canteen)
 "Ef" = (
@@ -5649,7 +5646,7 @@
 /area/ship/crew/dorm)
 "MV" = (
 /obj/structure/bed,
-/obj/item/bedsheet/mime,
+/obj/item/bedsheet/black,
 /turf/open/floor/carpet/nanoweave/purple,
 /area/ship/crew/canteen)
 "MY" = (

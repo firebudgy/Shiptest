@@ -136,10 +136,6 @@
 	name = "prototype envirogloves"
 	icon_state = "protoplasma"
 
-/obj/item/clothing/gloves/color/plasmaman/clown
-	name = "clown envirogloves"
-	icon_state = "clownplasma"
-
 /obj/item/clothing/gloves/combat/wizard
 	name = "enchanted gloves"
 	desc = "These gloves have been enchanted with a spell that makes them electrically insulated and fireproof."

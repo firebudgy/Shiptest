@@ -465,7 +465,6 @@
 		"Ensure that any holy weapons are rendered unusable.",
 		"Hinder the crew while attempting to avoid being noticed.",
 		"Make the crew as miserable as possible.",
-		"Make the clown as miserable as possible.",
 		"Make the captain as miserable as possible.",
 		"Prevent the use of energy weapons where possible."
 	)

@@ -5408,9 +5408,6 @@
 	dir = 9
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/item/toy/figure/clown{
-	pixel_x = -9
-	},
 /obj/item/toy/figure/detective{
 	pixel_y = 7;
 	pixel_x = 9
@@ -11191,9 +11188,6 @@
 	icon_state = "1-2"
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/structure/sign/poster/contraband/clown{
-	pixel_x = -32
-	},
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "PZ" = (

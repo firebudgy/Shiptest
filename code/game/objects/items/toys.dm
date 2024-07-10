@@ -1226,12 +1226,6 @@
 	icon_state = "chemist"
 	toysay = "Get your pills!"
 
-/obj/item/toy/figure/clown
-	name = "Clown action figure"
-	icon_state = "clown"
-	toysay = "Honk!"
-	toysound = 'sound/items/bikehorn.ogg'
-
 /obj/item/toy/figure/ian
 	name = "Ian action figure"
 	icon_state = "ian"

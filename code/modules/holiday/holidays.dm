@@ -177,13 +177,6 @@
 	end_day = 5
 	begin_month = APRIL
 
-/datum/holiday/april_fools/celebrate()
-	SSticker.login_music = 'sound/ambience/clown.ogg'
-	for(var/i in GLOB.new_player_list)
-		var/mob/dead/new_player/P = i
-		if(P.client)
-			P.client.playtitlemusic()
-
 /datum/holiday/spess
 	name = "Cosmonautics Day"
 	begin_day = 12

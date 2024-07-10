@@ -2238,7 +2238,7 @@
 /area/ship/cargo)
 "ym" = (
 /obj/structure/rack,
-/obj/item/target/clown{
+/obj/item/target/alien{
 	pixel_x = -5;
 	pixel_y = 10
 	},

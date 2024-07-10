@@ -1156,12 +1156,6 @@ All effects don't start immediately, but rather get worse over time; the rate is
 	glass_name = "Creamtruck"
 	glass_desc = "A distinctly non-kid friendly equivalent to the ice cream truck."
 
-/datum/reagent/consumable/ethanol/bananahonk/on_mob_life(mob/living/carbon/M)
-	if((ishuman(M) && M.job == "Clown") || ismonkey(M))
-		M.heal_bodypart_damage(1,1)
-		. = 1
-	return ..() || .
-
 /datum/reagent/consumable/ethanol/silencer
 	name = "Choker"
 	description = "It takes a moment of quiet to really appreciate some drinks - this one doesn't give you the illusion of choice."

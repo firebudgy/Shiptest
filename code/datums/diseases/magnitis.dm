@@ -31,7 +31,7 @@
 			if(prob(2))
 				to_chat(affected_mob, "<span class='danger'>You feel a strong shock course through your body.</span>")
 			if(prob(2))
-				to_chat(affected_mob, "<span class='danger'>You feel like clowning around.</span>")
+				to_chat(affected_mob, "<span class='danger'>You feel like messing around.</span>")
 			if(prob(4))
 				for(var/obj/M in orange(4,affected_mob))
 					if(!M.anchored && (M.flags_1 & CONDUCT_1))

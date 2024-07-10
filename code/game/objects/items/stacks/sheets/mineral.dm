@@ -9,7 +9,7 @@ Mineral Sheets
 		- Plasma
 		- Gold
 		- Silver
-		- Clown
+		- Hellstone
 		- Titanium
 		- Plastitanium
 	Others:

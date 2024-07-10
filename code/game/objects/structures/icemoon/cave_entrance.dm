@@ -208,57 +208,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 	visible_message("<span class='warning'>Something slips out of [src]!</span>")
 	var/loot = rand(1, 21)
 	switch(loot)
-		if(1)//Clown hell. God help you if you roll this.
-			visible_message("<span class='userdanger'>You can hear screaming and joyful honking.</span>")//now THIS is what we call a critical failure
-			playsound(loc,'sound/spookoween/ghosty_wind.ogg', 100, FALSE, 50, TRUE, TRUE)
-			playsound(loc,'sound/spookoween/scary_horn3.ogg', 100, FALSE, 50, TRUE, TRUE)
-			if(prob(15))
-				new /mob/living/simple_animal/hostile/clown/clownhulk(loc)
-				new /mob/living/simple_animal/hostile/clown/longface(loc)
-				new /mob/living/simple_animal/hostile/clown/clownhulk/chlown(loc)
-				new /obj/item/shield/energy/bananium(loc)
-			if(prob(35))
-				new /mob/living/simple_animal/hostile/clown/banana(loc)
-			if(prob(35))
-				new /mob/living/simple_animal/hostile/clown/fleshclown(loc)
-				new /mob/living/simple_animal/hostile/clown/clownhulk/chlown
-				new /mob/living/simple_animal/hostile/clown/honkling(loc)
-			if(prob(25))
-				new /obj/item/grenade/spawnergrenade/clown(loc)
-				new /obj/item/grenade/spawnergrenade/clown(loc)
-				new /mob/living/simple_animal/hostile/clown/clownhulk(loc)
-			if(prob(10))
-				new /mob/living/simple_animal/hostile/clown/mutant/blob(loc)//oh god oh fuck
-				new /obj/machinery/syndicatebomb/badmin/clown(loc)
-			if(prob(35))
-				new /obj/item/storage/backpack/duffelbag/clown/syndie(loc)
-				new /mob/living/simple_animal/hostile/clown/fleshclown(loc)
-				new /mob/living/simple_animal/hostile/clown/honkling(loc)
-			else
-				new /obj/item/storage/backpack/duffelbag/clown/cream_pie(loc)
-				new /mob/living/simple_animal/hostile/clown/honkling(loc)
-			if(prob(25))
-				new /obj/item/borg/upgrade/transform/clown(loc)
-				new /mob/living/simple_animal/hostile/clown/stacked(loc)
-			if(prob(35))
-				new /obj/item/megaphone/clown(loc)
-				new /mob/living/simple_animal/hostile/clown/stacked(loc)
-			if(prob(25))
-				new /obj/item/reagent_containers/spray/waterflower/lube(loc)
-				new /mob/living/simple_animal/hostile/clown/fleshclown(loc)
-				new /mob/living/simple_animal/hostile/clown/fleshclown(loc)
-			if(prob(35))
-				new /obj/item/clothing/suit/space/hardsuit/clown(loc)
-				new /mob/living/simple_animal/hostile/clown/fleshclown(loc)
-			if(prob(35))
-				new /mob/living/simple_animal/hostile/clown/fleshclown(loc)
-			if(prob(25))
-				new /obj/item/clothing/shoes/clown_shoes/banana_shoes/combat(loc)
-				new /mob/living/simple_animal/hostile/clown/fleshclown(loc)
-			if(prob(25))//you lost
-				new /obj/item/circlegame(loc)
-			new /obj/item/stack/sheet/mineral/hidden/hellstone(loc)
-		if(2)//basic demonic incursion
+		if(1)//basic demonic incursion
 			visible_message("<span class='userdanger'>You glimpse an indescribable abyss in the portal. Horrifying monsters appear in a gout of flame.</span>")
 			playsound(loc,'sound/hallucinations/wail.ogg', 200, FALSE, 50, TRUE, TRUE)
 			if(prob(35))
@@ -305,7 +255,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/netherworld/migo(loc)
 			new /mob/living/simple_animal/hostile/netherworld(loc)
 			new /turf/open/indestructible/necropolis(loc)
-		if(3)//skeleton/religion association, now accepting YOUR BONES
+		if(2)//skeleton/religion association, now accepting YOUR BONES
 			visible_message("<span class='userdanger'>Bones rattle and strained voices chant a forgotten god's name.</span>")
 			playsound(loc,'sound/ambience/ambiholy.ogg', 100, FALSE, 50, TRUE, TRUE)
 			if(prob(30))
@@ -355,7 +305,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /obj/item/stack/sheet/bone(loc)
 			new /mob/living/simple_animal/hostile/human/skeleton/templar(loc)
 			new /turf/open/floor/mineral/silver(loc)
-		if(4)//syndicate incursion. Again, high-quality loot at low chances, this time with excessive levels of danger
+		if(3)//syndicate incursion. Again, high-quality loot at low chances, this time with excessive levels of danger
 			visible_message("<span class='userdanger'>Radio chatter echoes out from the portal. Red-garbed figures step through, weapons raised.</span>")
 			playsound(loc,'sound/effects/radiohiss.ogg', 200, FALSE, 50, TRUE, TRUE)
 			playsound(loc,'sound/ambience/antag/tatoralert.ogg', 75, FALSE, 50, TRUE, TRUE)
@@ -431,7 +381,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/human/syndicate/ranged/smg/space(loc)
 			new /mob/living/simple_animal/hostile/human/syndicate/melee/sword/space(loc)
 			new /turf/open/floor/mineral/plastitanium/red(loc)
-		if(5)//;HELP BLOB IN MEDICAL
+		if(4)//;HELP BLOB IN MEDICAL
 			visible_message("<span class='userdanger'>You hear a robotic voice saying something about a \"Delta-level biohazard\".</span>")
 			playsound(loc,'sound/ai/outbreak5.ogg', 100, FALSE, 50, TRUE, TRUE)
 			playsound(loc,'sound/misc/bloblarm.ogg', 50, FALSE, 50, TRUE, TRUE)
@@ -490,7 +440,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/blob/blobbernaut/independent(loc)
 			new /mob/living/simple_animal/hostile/blob/blobspore/weak(loc)
 			new /mob/living/simple_animal/hostile/blob/blobspore/weak(loc)
-		if(6)//teleporty ice world. Incomplete.
+		if(5)//teleporty ice world. Incomplete.
 			visible_message("<span class='userdanger'>You glimpse a frozen, empty plane. Something stirs in the fractal abyss.</span>")
 			playsound(loc,'sound/ambience/ambisin3.ogg', 150, FALSE, 50, TRUE, TRUE)
 			if(prob(45))
@@ -512,7 +462,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 				new /obj/effect/decal/remains/human(loc)
 			new /mob/living/simple_animal/hostile/asteroid/ice_demon(loc)
 			new /turf/open/floor/plating/ice/smooth(loc)
-		if(7)//FUCK FUCK HELP SWARMERS IN VAULT
+		if(6)//FUCK FUCK HELP SWARMERS IN VAULT
 			visible_message("<span class='userdanger'>Something beeps. Small, glowing forms spill out of the portal en masse!</span>")
 			playsound(loc,'sound/ambience/ambitech.ogg', 150, FALSE, 50, TRUE, TRUE)
 			new /mob/living/simple_animal/hostile/swarmer/ai(loc)
@@ -561,7 +511,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 				new /obj/item/clothing/gloves/color/latex/engineering(loc)
 			new /obj/effect/mob_spawn/human/engineer(loc)
 			new /turf/open/floor/circuit/telecomms(loc)
-		if(8)//Literally blood-drunk.
+		if(7)//Literally blood-drunk.
 			visible_message("<span class='userdanger'>Blood sprays from the portal. An ichor-drenched figure steps through!</span>")
 			playsound(loc,'sound/magic/enter_blood.ogg', 150, FALSE, 50, TRUE, TRUE)
 			new /obj/effect/gibspawner/human(loc)
@@ -573,7 +523,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			if(prob(25))
 				new /obj/item/seeds/tomato/blood(loc)
 			new /turf/open/floor/plating/asteroid/basalt(loc)
-		if(9)//Now's your chance to be a [[BIG SHOT]]
+		if(8)//Now's your chance to be a [[BIG SHOT]]
 			visible_message("<span class='userdanger'>You hear the sound of big money and bigger avarice.</span>")
 			playsound(loc,'sound/lavaland/cursed_slot_machine_jackpot.ogg', 150, FALSE, 50, TRUE, TRUE)
 			new /obj/structure/cursed_slot_machine(loc)
@@ -604,7 +554,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/faithless(loc)
 			new /mob/living/simple_animal/hostile/faithless(loc)
 			new /turf/open/floor/mineral/gold(loc)
-		if(10)//hivebot factory
+		if(9)//hivebot factory
 			visible_message("<span class='userdanger'>You catch a brief glimpse of a vast production complex. One of the assembly lines outputs through the portal!</span>")
 			playsound(loc,'sound/ambience/antag/clockcultalr.ogg', 100, FALSE, 50, TRUE, TRUE)
 			if(prob(45))
@@ -675,7 +625,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/hivebot/strong(loc)
 			new /obj/machinery/conveyor(loc)
 			new /turf/open/floor/circuit/red(loc)
-		if(11)//miner's last moments
+		if(10)//miner's last moments
 			visible_message("<span class='userdanger'>The familiar sound of an ash storm greets you. A miner steps through the portal, stumbles, and collapses.</span>")
 			playsound(loc,'sound/weather/ashstorm/outside/weak_end.ogg', 150, FALSE, 50, TRUE, TRUE)
 			if(prob(35))
@@ -715,7 +665,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/asteroid/goliath/beast/ancient(loc)
 			new /obj/effect/mob_spawn/human/miner(loc)
 			new /turf/open/floor/plating/asteroid/basalt(loc)
-		if(12)//sailing the ocean blue
+		if(11)//sailing the ocean blue
 			visible_message("<span class='userdanger'>Water pours out of the portal, followed by a strange vessel. It's occupied.</span>")
 			playsound(loc,'sound/ambience/shore.ogg', 150, FALSE, 50, TRUE, TRUE)
 			new /obj/vehicle/ridden/lavaboat/dragon(loc)
@@ -750,7 +700,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /mob/living/simple_animal/hostile/carp/megacarp(loc)
 			new /mob/living/simple_animal/hostile/carp(loc)
 			new /turf/open/water(loc)
-		if(13)//hydroponics forest
+		if(12)//hydroponics forest
 			visible_message("<span class='userdanger'>You catch a glimpse of a strange forest. Smells like weed and bad choices.</span>")
 			playsound(loc,'sound/ambience/shore.ogg', 150, FALSE, 50, TRUE, TRUE)
 			if(prob(45))
@@ -793,7 +743,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /obj/structure/spacevine(loc)
 			new /mob/living/simple_animal/hostile/venus_human_trap(loc)
 			new /turf/open/floor/plating/grass(loc)
-		if(14)//fallout ss13
+		if(13)//fallout ss13
 			visible_message("<span class='userdanger'>You hear a geiger counter click and smell ash.</span>")
 			playsound(loc,'sound/items/radiostatic.ogg', 100, FALSE, 50, TRUE, TRUE)
 			if(prob(50))
@@ -816,7 +766,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /obj/item/geiger_counter(loc)
 			new /mob/living/simple_animal/hostile/cockroach/glockroach(loc)
 			new /turf/open/floor/plating/dirt(loc)
-		if(15)//the backroom freezer
+		if(14)//the backroom freezer
 			visible_message("<span class='userdanger'>The faint hallogen glow of a faraway kitchen greets you.</span>")
 			if(prob(45))
 				new /obj/item/kitchen/knife/bloodletter(loc)
@@ -860,14 +810,14 @@ GLOBAL_LIST_INIT(ore_probability, list(
 				new /mob/living/simple_animal/hostile/killertomato(loc)
 			new /mob/living/simple_animal/hostile/alien/maid(loc)
 			new /turf/open/floor/plasteel/kitchen_coldroom/freezerfloor(loc)
-		if(16)//legion miniboss
+		if(15)//legion miniboss
 			visible_message("<span class='userdanger'>The ground quakes. An immense figure reaches through the portal, crouching to squeeze through.</span>")
 			playsound(loc,'sound/magic/knock.ogg', 100, FALSE, 50, TRUE, TRUE)
 			new /mob/living/simple_animal/hostile/big_legion(loc)
 			if(prob(75))
 				new /obj/structure/closet/crate/necropolis/tendril/greater(loc)
 			new /turf/open/indestructible/necropolis(loc)
-		if(17)//xenobiologist's hubris
+		if(16)//xenobiologist's hubris
 			visible_message("<span class='userdanger'>You catch a glimpse of a wobbling sea of slimy friends. An abused-looking keeper slips through the portal.</span>")
 			playsound(loc,'sound/effects/footstep/slime1.ogg', 100, FALSE, 50, TRUE, TRUE)
 			if(prob(25))
@@ -917,19 +867,19 @@ GLOBAL_LIST_INIT(ore_probability, list(
 			new /obj/effect/mob_spawn/human/scientist(loc)
 			new /turf/open/floor/mineral/titanium/purple(loc)
 			new /mob/living/simple_animal/slime/random(loc)
-		if(18)//hey, free elite tumor!
+		if(17)//hey, free elite tumor!
 			visible_message("<span class='userdanger'>A large, pulsating structure falls through the portal and crashes to the floor.</span>")
 			playsound(loc,'sound/effects/break_stone.ogg', 100, FALSE, 50, TRUE, TRUE)
 			new /obj/structure/elite_tumor(loc)
 			new /turf/open/floor/plating/asteroid/basalt(loc)
-		if(19)//*you flush the toilet.*
+		if(18)//*you flush the toilet.*
 			visible_message("<span class='userdanger'>You hear the faint noise of a long flush.</span>")
 			new /obj/structure/toilet(loc)
 			new /obj/effect/decal/remains(loc)
 			new /obj/item/newspaper(loc)
 			new /turf/open/floor/plastic(loc)
 			new /obj/item/clothing/head/papersack/smiley(loc) //welcome to the bathroom
-		if(20)//Research & Zombies
+		if(19)//Research & Zombies
 			visible_message("<span class='userdanger'>Flashing lights and quarantine alarms echo through the portal. You smell rotting flesh and plasma.</span>")
 			playsound(loc,'sound/misc/bloblarm.ogg', 120, FALSE, 50, TRUE, TRUE)
 			if(prob(35))
@@ -974,7 +924,7 @@ GLOBAL_LIST_INIT(ore_probability, list(
 				new /obj/item/research_notes/loot/small(loc)
 			new/turf/open/floor/mineral/titanium/purple(loc)
 			new /mob/living/simple_animal/hostile/human/zombie(loc)
-		if(21)//Silverback's locker room
+		if(20)//Silverback's locker room
 			visible_message("<span class='userdanger'>You catch a glimpse of verdant green. Smells like a locker room.</span>")
 			playsound(loc,'sound/creatures/gorilla.ogg', 75, FALSE, 50, TRUE, TRUE)
 			new /mob/living/simple_animal/hostile/gorilla(loc)

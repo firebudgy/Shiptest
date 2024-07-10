@@ -46,39 +46,11 @@
 	icon_state = "botany_envirosuit"
 	item_state = "botany_envirosuit"
 
-
-/obj/item/clothing/under/plasmaman/mime
-	name = "mime envirosuit"
-	desc = "It's not very colourful."
-	icon_state = "mime_envirosuit"
-	item_state = "mime_envirosuit"
-
-/obj/item/clothing/under/plasmaman/clown
-	name = "clown envirosuit"
-	desc = "<i>'HONK!'</i>"
-	icon_state = "clown_envirosuit"
-	item_state = "clown_envirosuit"
-
 /obj/item/clothing/under/plasmaman/prisoner
 	name = "prisoner envirosuit"
 	desc = "An orange envirosuit identifying and protecting a criminal plasmaman."
 	icon_state = "prisoner_envirosuit"
 	item_state = "prisoner_envirosuit"
-
-/obj/item/clothing/under/plasmaman/clown/Extinguish(mob/living/carbon/human/H)
-	if(!istype(H))
-		return
-
-	if(H.on_fire)
-		if(extinguishes_left)
-			if(next_extinguish > world.time)
-				return
-			next_extinguish = world.time + extinguish_cooldown
-			extinguishes_left--
-			H.visible_message("<span class='warning'>[H]'s suit spews out a tonne of space lube!</span>","<span class='warning'>Your suit spews out a tonne of space lube!</span>")
-			H.ExtinguishMob()
-			new /obj/effect/particle_effect/foam(loc) //Truely terrifying.
-	return 0
 
 /obj/item/clothing/under/plasmaman/command //WS edit plasmaman customization
 	name = "captains plasma envirosuit"

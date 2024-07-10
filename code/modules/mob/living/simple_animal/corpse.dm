@@ -85,13 +85,6 @@
 	id = /obj/item/card/id/syndicate
 
 
-/obj/effect/mob_spawn/human/clown/corpse
-	roundstart = FALSE
-	instant = TRUE
-	skin_tone = "caucasian1"
-	hairstyle = "Bald"
-	facial_hairstyle = "Shaved"
-
 /obj/effect/mob_spawn/human/corpse/pirate
 	name = "Pirate"
 	skin_tone = "caucasian1" //all pirates are white because it's easier that way

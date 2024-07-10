@@ -178,7 +178,7 @@
 /datum/barsign/scotchservinwill
 	name = "Scotch Servin Willy's"
 	icon = "scotchservinwill"
-	desc = "Willy sure moved up in the world from clown to bartender."
+	desc = "Willy sure moved up in the world."
 
 /datum/barsign/officerbeersky
 	name = "Officer Beersky's"

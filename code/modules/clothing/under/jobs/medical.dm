@@ -151,7 +151,7 @@
 
 /obj/item/clothing/under/rank/medical/psychiatrist
 	name = "white psychiatrist's suit"
-	desc = "A turtleneck for personnel trained to deal with psychological issues, such as terrible work place incidents or the clown's bad jokes. This one has a white turtleneck."
+	desc = "A turtleneck for personnel trained to deal with psychological issues, such as terrible work place incidents. This one has a white turtleneck."
 	icon_state = "psychiatrist-white"
 	can_adjust = FALSE
 	permeability_coefficient = 0.5

@@ -223,7 +223,6 @@ const STYLES = [
   { title: 'Missile' },
   { title: 'Syndie Missile' },
   { title: 'Supply Box' },
-  { title: 'Clown Pod' },
   { title: 'Fruit' },
   { title: 'Invisible' },
   { title: 'Gondola' },

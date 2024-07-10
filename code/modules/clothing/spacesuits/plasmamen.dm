@@ -272,14 +272,6 @@
 	item_state = "mime_envirohelm"
 	visor_icon = "mime_envisor"
 
-/obj/item/clothing/head/helmet/space/plasmaman/clown
-	name = "clown envirosuit helmet"
-	desc = "The make-up is painted on, it's a miracle it doesn't chip. <i>'HONK!'</i>"
-	icon_state = "clown_envirohelm"
-	item_state = "clown_envirohelm"
-	visor_icon = "clown_envisor"
-	smile_state = "clown_smile"
-
 // WS BEGIN - plasmeme command helmets buff start
 /obj/item/clothing/head/helmet/space/plasmaman/command
 	name = "captains envirosuit helmet"

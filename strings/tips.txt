@@ -71,11 +71,6 @@ A RCD can be reloaded with metal, glass or plasteel sheets instead of just compr
 You can unwrench a pipe regardless of the pressures of the gases inside, but if they're too high they can burst out and injure you!
 ATMOS holofan projector blocks gases while allowing objects to pass through. With it, you can quickly contain gas spills, fires and hull breaches. Or, use it to seal a plasmaman cloning room.
 You can change the layer of a pipe by clicking with it on a wrenched pipe or other atmos component of the desired layer.
-As a Clown, if you lose your banana peel, you can still slip people with your PDA! Honk!
-As a Clown, eating bananas heals you slightly. Honk!
-As a Clown, your Grail is the mineral bananium, which can be used to build you a fun and robust mech beloved by everyone.
-As a Clown, you can use your stamp on a sheet of cardboard as the first step of making a honkbot. Fun for the whole crew!
-As a Clown, spice your gimmicks up! Nobody likes a one-trick pony.
 The null rod has anti magic functions: it makes you immune to magic.
 Books can be turned into a container that can store small items using wire cutters, bibles have this ability without needing to cut it.
 You can hack the MegaSeed Vendor to get access to more exotic seeds. These seeds can alternatively be ordered from a express console

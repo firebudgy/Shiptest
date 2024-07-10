@@ -7771,9 +7771,7 @@
 /obj/item/toy/figure/botanist{
 	pixel_x = 2
 	},
-/obj/item/toy/figure/clown{
-	pixel_x = 10
-	},
+,
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/plating,
 /area/outpost/maintenance/aft)

@@ -3886,15 +3886,6 @@
 /obj/item/stack/sheet/metal/fifty,
 /turf/open/floor/plasteel/patterned/cargo_one,
 /area/ruin/space/has_grav/singularitylab/cargo)
-"pl" = (
-/obj/structure/chair{
-	dir = 8
-	},
-/mob/living/simple_animal/hostile/retaliate/clown/longface{
-	dir = 8
-	},
-/turf/open/floor/engine,
-/area/ruin/space/has_grav/singularitylab/lab)
 "pp" = (
 /turf/open/floor/carpet/nanoweave/beige,
 /area/ruin/space/has_grav/singularitylab/cargo)
@@ -19439,7 +19430,7 @@ id
 id
 lK
 pe
-pl
+Ax
 rO
 lK
 pe

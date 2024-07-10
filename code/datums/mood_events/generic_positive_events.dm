@@ -137,10 +137,6 @@
 	mood_change = 3
 	timeout = 5 MINUTES
 
-/datum/mood_event/clownshoes
-	description = "<span class='nicegreen'>The shoes are a clown's legacy, I never want to take them off!</span>\n"
-	mood_change = 5
-
 /datum/mood_event/sacrifice_good
 	description ="<span class='nicegreen'>The gods are pleased with this offering!</span>\n"
 	mood_change = 5

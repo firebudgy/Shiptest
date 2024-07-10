@@ -2126,7 +2126,7 @@
 	dir = 1
 	},
 /obj/structure/rack,
-/obj/item/target/clown{
+/obj/item/target/alien{
 	pixel_x = 9;
 	pixel_y = 5
 	},
