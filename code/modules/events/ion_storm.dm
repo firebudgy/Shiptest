@@ -345,7 +345,7 @@
 								if(2) //Change to heads
 									message = "ALL CREWMEMBERS ARE NOW [ionadjectiveshalf]HEADS OF STAFF"
 						if(2) //Change a specific crewmember's job
-							switch(rand(1,3)) //Change to what?
+							switch(rand(1,2)) //Change to what?
 								if(1) //Change to a specific random job
 									message = "THE [ioncrew1] ARE NOW [ionadjectiveshalf][ioncrew2]"
 								if(2) //Change to heads
