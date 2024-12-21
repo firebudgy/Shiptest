@@ -83,6 +83,18 @@
 					/obj/item/melee/knife/survival)
 	crate_name = "survival knife crate"
 
+/datum/supply_pack/sec_supply/combknives
+	name = "Combat Knives Crate"
+	desc = "Contains three sharpened combat knives. Not for throwing."
+	cost = 750
+	contains = list(/obj/item/melee/knife/combat,
+					/obj/item/melee/knife/combat,
+					/obj/item/melee/knife/combat)
+	crate_name = "combat knife crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
 /datum/supply_pack/sec_supply/machete
 	name = "Stampted Steel Machete Crate"
 	desc = "Contains two mass produced machetes. A perfect choice for crews on a budget."
@@ -112,6 +124,16 @@
 	faction_discount = 0
 	faction_locked = TRUE
 
+/datum/supply_pack/sec_supply/hammer //kill them with hammers
+	name = "Gorlex Sledgehammer Crate"
+	desc = "Contains one Gorlex sledgehammer. For salvaging, or getting something through someone's thick skull."
+	cost = 1500
+	contains = list(/obj/item/melee/axe/sledgehammer)
+	crate_name = "sledgehammer crate"
+	faction = list(/datum/faction/syndicate/ngr, /datum/faction/syndicate/hardliners)
+	faction_discount = 0
+	faction_locked = TRUE
+
 /* Explosives */
 
 /datum/supply_pack/sec_supply/stingpack
@@ -120,6 +142,9 @@
 	cost = 1000
 	contains = list(/obj/item/storage/box/stingbangs)
 	crate_name = "stingbang grenade crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
 
 /datum/supply_pack/sec_supply/flashbangs
 	name = "Flashbang Grenade Pack"
@@ -127,6 +152,9 @@
 	cost = 750
 	contains = list(/obj/item/storage/box/flashbangs)
 	crate_name = "flashbang grenade crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
 
 /datum/supply_pack/sec_supply/incendiary_grenade
 	name = "Incendiary Grenade Crate"
