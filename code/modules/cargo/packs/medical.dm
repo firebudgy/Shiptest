@@ -94,6 +94,17 @@
 	faction = /datum/faction/syndicate/suns
 	faction_discount = 50 //this shouldnt be 3k but if it is...
 
+/datum/supply_pack/medical/surgery
+	name = "Cybersun Priority Surgical Supplies Crate"
+	desc = "Top of the line Cybersun Biodynamics surgical gear, for speedy recoveries of clients. Not for external distribution."
+	cost = 3000
+	contains = list(/obj/item/storage/backpack/duffelbag/syndie/surgery,
+					/obj/item/reagent_containers/medigel/sterilizine,
+					/obj/item/roller)
+	crate_name = "surgical supplies crate"
+	faction = /datum/faction/syndicate/cybersun
+	faction_discount = 0
+	faction_locked = TRUE
 
 /datum/supply_pack/medical/anesthetic
 	name = "Anesthetics Crate"

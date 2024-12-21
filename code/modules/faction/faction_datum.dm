@@ -108,4 +108,4 @@
 /datum/faction/milsurp
 	name = "Military Surplus"
 	prefixes = PREFIX_INDEPENDENT
-	allowed_factions = list(/datum/faction/syndicate, /datum/faction/nt, /datum/faction/pgf, /datum/faction/clip, /datum/faction/inteq)
+	allowed_factions = list(/datum/faction/syndicate/hardliners, /datum/faction/syndicate/ngr, /datum/faction/nt/vigilitas, /datum/faction/pgf, /datum/faction/clip, /datum/faction/inteq)
