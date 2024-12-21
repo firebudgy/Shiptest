@@ -102,3 +102,10 @@
 	parent_faction = /datum/faction/syndicate
 	prefixes = PREFIX_INDEPENDENT
 	allowed_factions = list(/datum/faction/syndicate)
+
+//for use in more restricted weapons sales, but faction agnostic. think armed forces.
+
+/datum/faction/milsurp
+	name = "Military Surplus"
+	prefixes = PREFIX_INDEPENDENT
+	allowed_factions = list(/datum/faction/syndicate, /datum/faction/nt, /datum/faction/pgf, /datum/faction/clip, /datum/faction/inteq)

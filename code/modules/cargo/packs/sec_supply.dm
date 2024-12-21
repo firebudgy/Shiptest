@@ -122,16 +122,72 @@
 	faction_discount = 0
 	faction_locked = TRUE
 
-/*
-		Stamina / PVP weapons (intentionally overpriced due to odd balance position of stamina weapons)
-*/
+/* Explosives */
 
 /datum/supply_pack/sec_supply/stingpack
 	name = "Stingbang Grenade Pack"
-	desc = "Contains five \"stingbang\" grenades, perfect for stopping riots and playing morally unthinkable pranks."
-	cost = 7500
+	desc = "Contains five \"stingbang\" grenades, perfect for stopping riots and suppressing enemy forces."
+	cost = 1000
 	contains = list(/obj/item/storage/box/stingbangs)
-	crate_name = "stingbang grenade pack crate"
+	crate_name = "stingbang grenade crate"
+
+/datum/supply_pack/sec_supply/flashbangs
+	name = "Flashbang Grenade Pack"
+	desc = "Contains five flashbang grenades, perfect for stopping riots. Cover your ears."
+	cost = 750
+	contains = list(/obj/item/storage/box/flashbangs)
+	crate_name = "flashbang grenade crate"
+
+/datum/supply_pack/sec_supply/incendiary_grenade
+	name = "Incendiary Grenade Crate"
+	desc = "Contains one incendiary grenade. Better not let it go off in your hands."
+	cost = 1500
+	contains = list(/obj/item/grenade/chem_grenade/incendiary)
+	crate_name = "incendiary grenade crate"
+	crate_type = /obj/structure/closet/crate/secure/plasma
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
+/datum/supply_pack/sec_supply/hegrenade
+	name = "HE Grenade Pack"
+	desc = "Contains three HE grenades, perfect for entrenched forces. Grenade launchers adviced."
+	cost = 1000
+	contains = list(/obj/item/grenade/syndieminibomb/concussion,
+					/obj/item/grenade/syndieminibomb/concussion,
+					/obj/item/grenade/syndieminibomb/concussion)
+	crate_name = "he grenade crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
+/datum/supply_pack/sec_supply/fraggrenade
+	name = "Frag Grenade Pack"
+	desc = "Contains five frag grenades, standard across all armed forces. "
+	cost = 750
+	contains = list(/obj/item/grenade/frag,
+					/obj/item/grenade/frag,
+					/obj/item/grenade/frag,
+					/obj/item/grenade/frag,
+					/obj/item/grenade/frag)
+	crate_name = "frag grenade crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
+/datum/supply_pack/sec_supply/smokegrenade
+	name = "Smoke Grenade Pack"
+	desc = "Contains seven smoke grenades, perfect for covering an advance."
+	cost = 300
+	contains = list(/obj/item/storage/box/smokebombs)
+	crate_name = "smoke grenade crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
+/*
+		Stamina / PVP weapons (intentionally overpriced due to odd balance position of stamina weapons)
+*/
 
 /datum/supply_pack/sec_supply/syringegun
 	name = "Syringe Gun Crate"

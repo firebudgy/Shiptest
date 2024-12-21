@@ -142,3 +142,6 @@
 					/obj/item/clothing/head/helmet/bulletproof/x11)
 	crate_name = "armor crate"
 	crate_type = /obj/structure/closet/crate/secure/plasma
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE

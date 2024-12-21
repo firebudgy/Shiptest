@@ -572,10 +572,32 @@
 /datum/supply_pack/gun/saw80
 	name = "SAW-80 Squad Automatic Weapon"
 	desc = "Contains one of the rarely-produced SAW-80 Squad Automatic Weapon platforms, exclusively for licensed buyers. Remember, short controlled bursts!"
-	cost = 6000
+	cost = 7000
 	contains = list(/obj/item/storage/guncase/saw80)
 	crate_name = "LMG crate"
 	faction = /datum/faction/syndicate/scarborough_arms
+	faction_discount = 0
+	faction_locked = TRUE
+
+/* Support */
+
+/datum/supply_pack/gun/grenadelauncher
+	name = "Tactical Grenade Launcher"
+	desc = "Contains one military-grade triple-shot tactical grenade launcher, compatible with standard munitions across settled space. Don't look down the barrel."
+	cost = 1000
+	contains = list(/obj/item/gun/grenadelauncher)
+	crate_name = "grenade launcher crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
+/datum/supply_pack/gun/hammerlauncher
+	name = "Hammer Disposable Anti-Armor Launcher"
+	desc = "Contains a single Hammer disposable anti-armor launcher, for use against things with treads. Make it count, these things aren't cheap!"
+	cost = 4000
+	contains = list(/obj/item/gun/ballistic/rocketlauncher/oneshot)
+	crate_name = "rocket launcher crate"
+	faction = /datum/faction/milsurp
 	faction_discount = 0
 	faction_locked = TRUE
 
