@@ -28,12 +28,12 @@
 
 /datum/supply_pack/sec_supply/securitybarriers
 	name = "Security Barrier Grenades"
-	desc = "Stem the tide with four Security Barrier grenades."
+	desc = "Stop the crowd with four Security Barrier grenades."
 	contains = list(/obj/item/grenade/barrier,
 					/obj/item/grenade/barrier,
 					/obj/item/grenade/barrier,
 					/obj/item/grenade/barrier)
-	cost = 2000
+	cost = 1000
 	crate_name = "security barriers crate"
 
 /datum/supply_pack/sec_supply/empty_sandbags
@@ -81,15 +81,15 @@
 	contains = list(/obj/item/melee/knife/survival,
 					/obj/item/melee/knife/survival,
 					/obj/item/melee/knife/survival)
-	crate_name = "combat knife crate"
+	crate_name = "survival knife crate"
 
 /datum/supply_pack/sec_supply/machete
 	name = "Stampted Steel Machete Crate"
-	desc = "Contains five mass produced machetes. A perfect choice for crews on a budget."
+	desc = "Contains two mass produced machetes. A perfect choice for crews on a budget."
 	cost = 500
 	contains = list(/obj/item/melee/sword/mass,
 					/obj/item/melee/sword/mass)
-	crate_name = "combat knife crate"
+	crate_name = "machete crate"
 
 /datum/supply_pack/sec_supply/flamethrower
 	name = "Flamethrower Crate"
@@ -99,16 +99,6 @@
 	crate_name = "flamethrower crate"
 	crate_type = /obj/structure/closet/crate/secure/weapon
 
-	faction = /datum/faction/syndicate/ngr
-	faction_discount = 20
-
-/datum/supply_pack/sec_supply/incendiary_grenade
-	name = "Incendiary Grenade Crate"
-	desc = "Contains one incendiary grenade. Better not let it go off in your hands."
-	cost = 750
-	contains = list(/obj/item/grenade/chem_grenade/incendiary)
-	crate_name = "incendiary grenade crate"
-	crate_type = /obj/structure/closet/crate/secure/plasma
 	faction = /datum/faction/syndicate/ngr
 	faction_discount = 20
 
@@ -151,7 +141,7 @@
 
 /datum/supply_pack/sec_supply/hegrenade
 	name = "HE Grenade Pack"
-	desc = "Contains three HE grenades, perfect for entrenched forces. Grenade launchers adviced."
+	desc = "Contains three HE grenades, perfect for entrenched forces. Grenade launchers advised."
 	cost = 1000
 	contains = list(/obj/item/grenade/syndieminibomb/concussion,
 					/obj/item/grenade/syndieminibomb/concussion,
@@ -181,6 +171,18 @@
 	cost = 300
 	contains = list(/obj/item/storage/box/smokebombs)
 	crate_name = "smoke grenade crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
+/datum/supply_pack/sec_supply/c4crate
+	name = "C4 Charge Pack"
+	desc = "Contains three C4 charges, for making a doorway where there wasn't one before. Affix to the wall and stand back."
+	cost = 1000
+	contains = list(/obj/item/grenade/c4,
+					/obj/item/grenade/c4,
+					/obj/item/grenade/c4)
+	crate_name = "c4 charge crate"
 	faction = /datum/faction/milsurp
 	faction_discount = 0
 	faction_locked = TRUE
@@ -220,6 +222,18 @@
 					/obj/item/mine/directional/claymore,
 					/obj/item/mine/directional/claymore)
 	crate_name = "C-10 Claymore crate"
+	faction = /datum/faction/milsurp
+	faction_discount = 0
+	faction_locked = TRUE
+
+/datum/supply_pack/sec_supply/training
+	name = "Training Landmine Crate"
+	desc = "Three pressure-activated training landmines, for practice with defusal or combat operations without blowing your legs off."
+	cost = 500
+	contains = list(/obj/item/mine/pressure/training,
+					/obj/item/mine/pressure/training,
+					/obj/item/mine/pressure/training)
+	crate_name = "training landmine crate"
 
 /obj/item/paper/fluff/claymore
 	name = "PRODUCT USAGE GUIDE"
